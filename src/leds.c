@@ -41,5 +41,5 @@ void LedsSetAllOff(void){
 }
 
 bool LedIsOn(int led) {
-    return (LedToMask(led) & *puerto) ? true : false;
+      return (LedToMask(led) & *puerto) ? true : false;
 }
